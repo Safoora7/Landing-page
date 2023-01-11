@@ -59,3 +59,48 @@ p {
     width: 430px;
     padding: 20px
 }
+
+footer {
+    background-color: #1F2937;
+}
+
+.three {
+    background-color: #E5E7EB;
+}
+
+.quote {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.four {
+    background-color: #3882F6;
+}
+
+.info {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.box {
+    border: 2px solid #3882F6;
+    height: 90px;
+    width: 90px;
+    border-radius: 8px;
+}
+
+.subtext {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 15px;
+    color: #1F2937;
+}
+
+.big {
+    height: 200px;
+    width: 100px;
+}
