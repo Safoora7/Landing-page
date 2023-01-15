@@ -1,52 +1,107 @@
 body {
     margin: 0;
-    padding: o;
+    padding: 0;
     width: 100vw;
     height: 100vh;
     
+    
+}
+
+* {
+    box-sizing: border-box;
 }
 
 .one {
     background-color: #1F2937;
+    display: inline-block;
+    padding: 5px 200px 100px 200px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
-    
+    align-items: flex-start;
+    gap: 10px;
 }
 
-img {
-    height: 50px;
-    width: 50px;
-    background-color: grey;
-    color: #f9faf8;
-    padding: 100px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-button {
-    background-color: #3882F6;
-}
- 
-nav {
+.first {
     display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 120px;
+    
+
 }
 
-h1 {
-    font-size: 48px;
-    font-weight: extra-bold;
-    font-family: roboto, Arial, Helvetica, sans-serif;
-    color: #f9faf8;
+.first p {
+    margin-left: -18px;
+    margin-bottom: 0px;
+    
 }
 
 h2 {
     font-size: 24px;
     font-family: Roboto-Bold, Arial, Helvetica, sans-serif;
     color: #f9faf8;
+    margin-left: 120px;
 
 }
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 23px;
+    margin-top: 25px;
+    margin-left: 650px;
+    list-style: none;
+}
+
+img {
+    height: 260px;
+    width: 660px;
+    text-align: center;
+    background-color: grey;
+    color: #f9faf8;
+    padding: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    align-self: flex-end;
+    margin-left: 600px;
+    margin-top: -200px;
+
+}
+
+button {
+    background-color: #3882F6;
+    display: inline-block;
+    color: #f9faf8;
+    border-radius: 5px;
+    padding: 5px 30px;
+    font-weight: bold;
+    font-size: 18px;
+    align-self: flex-start;
+    margin-top: -13px;
+}
+ 
+
+
+h1 {
+    font-size: 48px;
+    font-weight: extra-bold;
+    font-family: roboto, Arial, Helvetica, sans-serif;
+    color: #f9faf8;
+    display: inline-block;
+    height: 40px;
+    width: 350px;
+}
+
 
 p, ul {
     font-size: 18px;
@@ -57,15 +112,61 @@ p, ul {
 p {
     height: 100x;
     width: 430px;
-    padding: 20px
+    padding: 20px;
+    display: inline-block;
 }
 
 footer {
     background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+.two {
+    padding: 0px 550px 150px 530px;
+    display: flex;
+    flex-direction: row;
+    gap: 45px;
+}
+
+
+.box {
+    border: 2px solid #3882F6;
+    height: 185px;
+    width: 185px;
+    border-radius: 12px;
+}
+
+.subtext {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 17.5px;
+    color: #1F2937;
+    margin: 3px 0px 0px 0px;
+    text-align: center;
+    
+}
+
+.big {
+    height: 200px;
+    width: 200px;
+   
+}
+
+.info {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    margin-left: 7px;
+}
 .three {
     background-color: #E5E7EB;
+    padding: 50px 550px; 
+    
 }
 
 .quote {
@@ -74,33 +175,52 @@ footer {
     font-weight: lighter;
     font-size: 36px;
     color: #1F2937;
+    width: 850px;
 }
+
 
 .four {
     background-color: #3882F6;
+    margin: 95px 200px;
+    padding: 70px 130px;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
 }
 
-.info {
-    font-size: 36px;
-    font-weight: bolder;
-    color: #1F2937;
+.a {
+    font-weight: bold;
+    font-size: 23px;
+    margin: 0;
+    padding: 0;
+    display: inline;
 }
 
-.box {
-    border: 2px solid #3882F6;
-    height: 90px;
-    width: 90px;
-    border-radius: 8px;
+.b {
+    margin: 0;
+    padding: 0;
+    display: inline;
 }
 
-.subtext {
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: lighter;
-    font-size: 15px;
-    color: #1F2937;
+.four p {
+    width: 600px;
+    height: 5px;
+    margin: 0;
+    padding: 0;
 }
 
-.big {
-    height: 200px;
-    width: 100px;
+.c {
+    color: #f9faf8;
+    border-color: #f9faf8;
+    border-radius: 5px;
+    padding: 5px 30px;
+    font-weight: bold;
+    font-size: 18px;
+    align-self: flex-end;
+    margin: 0;
+
 }
+
